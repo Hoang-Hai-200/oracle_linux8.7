@@ -1,8 +1,9 @@
 #!/bin/bash
 
 
-#sudo yum install make git vim -y
-#git clone https://github.com/hut/ranger.git
-#cd ./ranger && sudo make install
+sudo yum install make -y
+git clone https://github.com/hut/ranger.git
+cd ./ranger && sudo make install
 
-ranger --copy-config=all
+#ranger --copy-config=all
+#git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
